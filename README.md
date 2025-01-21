@@ -14,13 +14,9 @@ Prerequisites: Ensure you have the following installed:
 C++ compiler (g++ recommended)
 SFML library (version 2.5 or higher)
 pthread (usually comes pre-installed with Linux)
-Clone the Repository:
-
-bash
-git clone https://github.com/username/multithreaded-ping-pong.git  
-cd multithreaded-ping-pong  
-Compile the Code:
-
+# Clone the Repository:
+git clone https://github.com/hassanj18/MultiThreaded-Ping-Pong
+# Compile the Code:
 bash
 g++ -o ping_pong main.cpp -lsfml-graphics -lsfml-window -lsfml-system -lpthread  
 Run the Game:
